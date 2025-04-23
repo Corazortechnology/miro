@@ -4,7 +4,6 @@
     "description": "WebRTC SFU browser-based video calls",
     "main": "Server.js",
     "scripts": {
-        "test": "mocha tests/*.js",
         "start": "node app/src/Server.js",
         "start-dev": "node app/src/Server.js",
         "debug": "DEBUG='mediasoup*' node app/src/Server.js",
