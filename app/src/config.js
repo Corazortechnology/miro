@@ -33,7 +33,7 @@ const splitChar = ',';
 const PLATFORM = os.platform();
 const IS_DOCKER = fs.existsSync('/.dockerenv');
 const ENVIRONMENT = 'production';
-const ANNOUNCED_IP = 'Your Server Public IPv4 or Domain';
+const ANNOUNCED_IP = 'https://miro-hdepdudugfbbbvhk.japaneast-01.azurewebsites.net';
 const LISTEN_IP = process.env.SFU_LISTEN_IP || '0.0.0.0';
 const IPv4 = getIPv4();
 
