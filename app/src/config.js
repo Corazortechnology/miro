@@ -32,8 +32,8 @@ const splitChar = ',';
 
 const PLATFORM = os.platform();
 const IS_DOCKER = fs.existsSync('/.dockerenv');
-const ENVIRONMENT = process.env.NODE_ENV || 'development';
-const ANNOUNCED_IP = process.env.SFU_ANNOUNCED_IP || '';
+const ENVIRONMENT = 'production';
+const ANNOUNCED_IP = 'Your Server Public IPv4 or Domain';
 const LISTEN_IP = process.env.SFU_LISTEN_IP || '0.0.0.0';
 const IPv4 = getIPv4();
 
